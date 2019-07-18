@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <!--<title>Facelet Title</title>-->
+        <title>Administration</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="../static/images/icons/favicon.ico"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/vendor/bootstrap/css/bootstrap.min.css"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/vendor/animate/animate.css"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/vendor/css-hamburgers/hamburgers.min.css"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/vendor/select2/select2.min.css"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../static/css/util.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/main.css"/>
+
+    </h:head>
+    <h:body>
+        <h:form>
+            <div class="bg-contact100" style="background-image: url('../static/images/bg-01.jpg');">
+                <div class="container-contact100">
+                    <div class="wrap-contact100">
+                        <div class="contact100-pic js-tilt data-tilt" style="padding-top: 0px;">
+                            <a href="/iot">
+                                <img src="../static/images/img-01.png" alt="IMG"/>
+                            </a>
+                        </div>
+                        <div class="container-contact100-btn">
+                            <p:button value="Workshops" outcome="workshopsList" class="contact100-form-btn"/>
+                            <p:button value="Students list" outcome="studentsList"  class="contact100-form-btn"/>
+                            <p:button value="Industrials List" outcome="industrialsList"  class="contact100-form-btn"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </h:form>
+        <!--===============================================================================================-->
+        <script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="../static/vendor/bootstrap/js/popper.js"></script>
+        <script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="../static/vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="../static/vendor/tilt/tilt.jquery.min.js"></script>
+        <script>
+            $('.js-tilt').tilt({
+                scale: 1.1
+            });
+        </script>
+        <!--===============================================================================================-->
+        <script src="../static/js/main.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-23581568-13');
+        </script>
+    </h:body>
+</html>
+
