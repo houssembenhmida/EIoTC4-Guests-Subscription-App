@@ -1,0 +1,9 @@
+1) Open The project with an IDE (Netbeans, Intellij)
+2) build project with Maven
+3) Download Tomcat 8
+4) Copy target/iot-1.0-SNAPSHOT.war under tomcat/webapps/ROOT.war
+5) Install and start MySql
+6) create user and password (default_user="iotapp", default_password="eniso2021")
+7) create database (default_database="iot_app")
+8) give all permissions to the user for the database
+9) start tomcat
